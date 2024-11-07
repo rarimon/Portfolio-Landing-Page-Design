@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* fonts family*/
+
+/*  */
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.active{
+    color:#5E3BEE !important;
+}
+
+
+.heading-text{
+    color:#282938;
+    font-size: 44px;
+    font-weight: bold;
+
+    
+}
+.sub-heading-text{
+    color:#282938;
+    font-size: 21.33px;
+    line-height: 150%;
+}
+.paragraph-text-style{
+    font-size: 20px;
+    line-height: 150%;
+}
+
+/* heading style start */
+/* heading stend */
+/* heading stend */
+.main_menu{
+   background-color: white;
+}
+
+.brand_logo{
+    width: 187px;
+    height: 40px;
+}
+
+.main_menu ul li a:hover{
+    color:#5E3BEE;
+}
+.main_menu .btn{
+    border:1px solid #5E3BEE;
+    padding: 10px 42.67px;
+}
+.main_menu .btn:hover{
+    background-color: #5E3BEE;
+    color:white;
+}
+
+/* heading style end */
+
+/* hero section style start */
+
+.hero_section{
+    background-color: #F5FCFF;
+}
+
+.c-btn{
+    border:1px solid #5E3BEE;
+    padding: 10px 20px;
+    background-color: #5E3BEE;
+    color:white;
+}
+.c-btn:hover{
+    border:1px solid #5E3BEE;
+    color:#5E3BEE;
+}
+/* hero section style end */
+
+
+/* My_Expertise_section style start */
+.My_Expertise_section{}
+.My_Expertise_section .card{
+    background-color: #F5FCFF;
+}
+.My_Expertise_section .card img{
+    width: 74px;
+    height: 74px;
+  
+}
+.My_Expertise_section .card h4{
+    font-size: 21px;
+    font-weight: bold;
+    padding-left: 13px;
+    color:#282938;
+}
+.My_Expertise_section .card p{
+    font-size: 15px;
+    padding-left: 13px;
+    color:#282938;
+}
+.My_Expertise_section .card:hover {
+  
+    border-bottom:4px solid #5E3BEE;
+    border-radius: 10px;
+    color:white;
+}
+/* My_Expertise_section style end */
+
+/* about section style start */
+.About_section{}
+/* about section style end */
+
+/* portfolio section start */
+.portfolio_section{}
+.portfolio_section .card .border-primary{
+    border-bottom:1px solid #5E3BEE !important;
+}
+
+
+.portfolio_section .p-btn{
+    border:1px solid #E62872;
+    padding: 10px 20px;
+    background-color: #E62872;
+    color:white;
+}
+.portfolio_section .p-btn:hover{
+    border:1px solid #E62872;
+    color:#E62872;
+    background-color: white;
+}
+/* portfolio section end */
+
+/* Testimonials section style start */
+.Testimonials_section{
+    background-color: #F5FCFF;
+}
+.Testimonials_section .author-img img{
+    width: 75px;
+    height: 75px;
+}
+
+
+/* Testimonials section style end */
+
+/* contact section style  */
+
+.contact_section{}
+.contact_section .m{
+    padding: 0px 200px;
+}
+.contact_section .border{
+    border:1px solid #5E3BEE !important;
+}
+/* contact section style  */
+
+/* footer style */
+.footer_section{
+    background-color: #F5FCFF;
+}
+.footer_section .social_icon{
+    
+}
+.footer_section .social_icon ul{
+margin: 0;
+padding: 0;
+list-style-position: none;
+}
+.footer_section .footer_bottom{
+    font-size: 15px;
+}
+/* footer style */

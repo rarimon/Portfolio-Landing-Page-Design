@@ -1,0 +1,176 @@
+/* Extra small devices (phones, 575.9px and down) */
+@media  (max-width: 575.9px) {
+    .hero_section .sub-heading-text{
+        text-align: center;
+        font-size: 20px;
+    }
+    .hero_section .heading-text{
+        text-align: center;
+        font-size: 30px;
+    }
+    .hero_section .paragraph-text-style{
+        text-align: center;
+        font-size: 12px;
+    }
+    .hero_section .small_size{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .My_Expertise_section .sub-heading-text{
+        text-align: center;
+    }
+    .My_Expertise_section .heading-text{
+        text-align: center;
+    }
+    .About_section .sub-heading-text{
+        text-align: center;
+        padding-top: 40px;
+    }
+    .About_section .heading-text{
+        text-align: center;
+        font-size: 35px;
+    }
+    .About_section .paragraph-text-style{
+        text-align: center;
+        font-size: 15px;
+        
+    }
+
+    .portfolio_section .sub-heading-text{
+        text-align: center;
+    }
+    .portfolio_section .heading-text{
+        text-align: center;
+    }
+    .portfolio_section .btn{
+        display: none !important;
+    }
+   
+    .Testimonials_section .sub-heading-text{
+        text-align: center;
+    }
+    .Testimonials_section .heading-text{
+        text-align: center;
+        font-size: 35px;
+    }
+    .Testimonials_section .ma{
+      margin-left:10px !important;
+      margin-right:10px !important;
+    }
+    /* .footer_section .f_menu{
+        display:inline !important;
+    
+    } */
+
+    .footer_section .social_icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_section .footer_bottom .author{
+        text-align: center;
+       
+    }
+    .footer_section .footer_bottom .right-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+    }
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.9px) {
+    .hero_section .sub-heading-text{
+        font-size: 20px;
+    }
+    .hero_section .heading-text{
+        font-size: 35px;
+    }
+    .hero_section .paragraph-text-style{
+        font-size: 15px;
+    }
+    .hero_section .small_size{
+        margin-bottom: 50px;
+    }
+
+
+    .My_Expertise_section .sub-heading-text{
+        text-align: center;
+    }
+    .My_Expertise_section .heading-text{
+        text-align: center;
+    }
+
+    .About_section .sub-heading-text{
+        text-align: center;
+        padding-top: 40px;
+    }
+    .About_section .heading-text{
+        text-align: center;
+      
+    }
+    .About_section .paragraph-text-style{
+        text-align: center;
+    }
+
+    .Testimonials_section .sub-heading-text{
+        text-align: center;
+    }
+    .Testimonials_section .heading-text{
+        text-align: center;
+  
+    }
+
+    .footer_section .social_icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_section .footer_bottom .author{
+        text-align: center;
+       
+    }
+    .footer_section .footer_bottom .right-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+    }
+  
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.9px) {
+    .hero_section .heading-text{
+        font-size: 30px;
+    }
+    .hero_section .paragraph-text-style{
+        font-size: 12px;
+    }
+    .About_section .sub-heading-text{
+        font-size: 20px;
+    }
+    .About_section .heading-text{
+        font-size: 40px;
+      
+    }
+    .About_section .paragraph-text-style{
+        font-size: 14px;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media  (min-width: 992px) and (max-width: 1199.9px) {
+    
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media  (min-width: 1200px) and (max-width: 1399.9px)  {
+    
+  }
